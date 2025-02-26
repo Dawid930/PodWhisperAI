@@ -6,6 +6,7 @@ import { z } from "zod"
 
 import { Button } from "@/components/ui/button"
 import { toast } from "sonner"
+
 import {
   Form,
   FormControl,
@@ -202,13 +203,13 @@ const CreatePodcast = () => {
               setAudioDuration={setAudioDuration}
             />
 
-            <GenerateThumbnail
+            {/* <GenerateThumbnail
               setImage={setImageUrl}
               setImageStorageId={setImageStorageId}
               image={imageUrl}
               imagePrompt={imagePrompt}
               setImagePrompt={setImagePrompt}
-            />
+            /> */}
 
             <div className="mt-10 w-full">
               <Button
